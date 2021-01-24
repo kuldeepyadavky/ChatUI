@@ -1,0 +1,28 @@
+.nav{
+	display: flex;
+	padding-left: 20px;
+	cursor: pointer;
+	align-items: center;
+	color:#707c97;
+	margin-bottom: 30px;
+}
+
+.active{
+	color: #2a8bf2;
+	border-left: 4px solid #2a8bf2;
+	border-radius: 3px;	
+}
+
+.link{
+	font-weight: 600;
+	margin-left: 12px;
+	height: 40px;
+	font-family: TT Norms;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+p{
+	padding-left: 16px;
+	padding-right: 16px;
+}
