@@ -1,12 +1,11 @@
 import './App.css'
 import SideBar from './SideBar/SideBar'
-
+import Chat from './ChatSection/Chat'
 function App() {
 	return (
 		<div className='App'>
-			{/*SideBar*/}
 			<SideBar />
-			{/*ChatSection*/}
+			<Chat />
 		</div>
 	)
 }

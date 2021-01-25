@@ -1,0 +1,122 @@
+.message__component{
+	displsay: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	background-color: white;
+	border-radius: 3px;
+	padding: 30px 15px;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+}
+
+.user{
+	display: flex;
+}
+
+.user__data{
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+}
+
+.user__data > small{
+	color: #2a8bf2;
+	font-weight: 500;
+	font-size: 12px;
+}
+
+.user__data > b{
+	font-size: 14px;
+}
+
+.timestamp> small{
+	color: #707c97;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.activity{
+	display: flex;
+	margin-top: 10px;
+	align-items: center;
+}
+
+.message__body{
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+	margin-top: 10px;
+}
+
+.content > p{	
+	font-size: 13px;
+	color: #707c97;
+	font-weight: 500;
+	padding-right: 30px;
+	line-height: 20px;
+}
+
+.number > p{
+	display: grid;
+	place-items: center;
+	font-size: 10px;
+	color:white;
+	width: 10px;
+	font-weight: 500;
+}
+
+.number{
+	display: grid;
+	place-items: center;
+	background-color: #ff3366;
+	border-radius: 50%;
+	padding: 5px;
+}
+
+.message__files{
+	display: flex;
+	align-items: center;
+}
+
+ .files{
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	border-radius: 30px;
+	font-size: 14px;
+	font-weight: 500;
+	background-color: #2a8bf25b;
+	color: #2a8bf2;
+}
+
+.photo{
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	margin-left: 10px;
+	border-radius: 30px;
+	font-size: 14px;
+	font-weight: 500;
+	background-color: #ff336667;
+	color: #ff3366;
+}
+
+.voice{
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.voice > p{
+	margin-left: 5px;
+	color: #707c97;
+	font-weight: 500;
+}
+
+.message__vinvert{
+
+}
